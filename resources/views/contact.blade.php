@@ -4,11 +4,11 @@
 <div class="title-top mb-5">
     <h2 class="fw-bold">Contact Us</h2>
 </div>
-<form method="post" action="{{route('contacts.store')}}">
+<form method="post" action="{{route('contact.store')}}">
     {{csrf_field()}}
     <div class="mb-3">
         <label for="inputnama">Nama</label>
-    <input type="text" class="form-control" id="inputnama" placeholder="Masukan Nama" name="nama">
+    <input type="text" class="form-control" id="inputnama" placeholder="Masukan Nama" name="name">
     </div>
     <div class="mb-3">
         <label for="inputemail">Email</label>
